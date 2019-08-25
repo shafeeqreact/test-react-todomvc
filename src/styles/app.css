@@ -1,0 +1,7 @@
+.completed span {
+    text-decoration: line-through;
+}
+
+.destroy {
+    display: block;
+}
