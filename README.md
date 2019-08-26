@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Impletementation Steps
+Follow the below instructions to implement this app:
+
+# 1 # `git clone https://github.com/shafeeqreact/test-react-todomvc`
+    This command will clone the git master branch code into your computer.
+# 2 # `npm install`
+    This will install all the depencies that are required for running this app.
+# 3 # `npm start`
+    Runs the app in the development mode.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
