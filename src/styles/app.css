@@ -1,3 +1,7 @@
+.container {
+    width: 50%;
+}
+
 .completed span {
     text-decoration: line-through;
 }

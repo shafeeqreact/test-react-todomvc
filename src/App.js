@@ -22,7 +22,7 @@ function App() {
     let id = getUID();
     let item = { name, id };
 
-    let originalState = items;
+    let originalState = [...items];
 
     setItems([...items, item]);
 
@@ -34,7 +34,7 @@ function App() {
   }
 
   const handleComplete = (id) => {
-    let originalState = items;
+    let originalState = [...items];
 
     let updatedItems = items.map(item => {
       if (item.id === id) {
@@ -52,7 +52,7 @@ function App() {
   }
 
   const handleDelete = (id) => {
-    let originalState = items;
+    let originalState = [...items];
 
     let updatedItems = items.filter(item => item.id !== id);
     setItems(updatedItems);
